@@ -79,7 +79,6 @@ namespace assignment_two
                     }
 
                     //save the new team
-                    db.Teams.Add(team);
                     db.SaveChanges();
 
                     //redirect
